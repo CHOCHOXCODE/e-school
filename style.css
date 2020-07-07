@@ -1,0 +1,70 @@
+    /* padding section ----------- */
+.total-padding{
+    margin-bottom: 50px;
+}
+.bootom-padding{
+    margin-bottom: 80px;
+}
+.container{
+    padding-bottom:50px;
+}
+
+.bg-color-header{
+    background-color: #F0FFF0;
+}
+
+/* top body --------- */
+.button{
+    border-radius: 25px;
+}
+
+ /* catagories section -------- */
+.card-bd{
+    border: none;
+    background-color: #F0FFF0;
+    border-radius: 30px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.card-bd img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.shadow{
+    border-radius: 12px 0px 12px 0px;
+    box-shadow: 10px 10px 40px slategrey;
+    background-color: #ffffff;
+}
+
+/* online course ---------- */
+.card-img-top{
+    padding: 20px 20px;
+}
+
+.card-bg-2{
+    border-radius: 12px;
+    box-shadow: 5px 20px 30px rgb(190, 193, 196);
+    
+}
+
+.card-footer{
+    border: none;
+    background-color: #FFFFFF;
+}
+
+
+/* testimonial --------- */
+.man-img-right{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+/* footer ------------- */
+.text-aling{
+    padding: 40px 0px 0px 0px;
+}
