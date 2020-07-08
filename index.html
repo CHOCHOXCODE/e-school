@@ -20,7 +20,7 @@
                 </button>
                 <nav class="navbar navbar-light">
                     <a class="navbar-brand" href="#">
-                        <img src="images/ICON/Logo.png" width="150" height="50" alt="" loading="lazy">
+                        <img src="images/ICON/Logo.png" width="180" height="60" alt="" loading="lazy">
                     </a>
                 </nav>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -71,7 +71,7 @@
     <!-- end header section ------------------- -->
 
     <!-- start catagores ---------- -->
-    <section class="container bootom-padding">
+    <section id="books" class="container bootom-padding">
             <div class="card-deck ">
                 <div class="card card-bd ">
                     <img class="card-img-top" src="images/ICON/book.png" alt="Card image cap">
@@ -108,8 +108,8 @@
 
 
     <!-- stert online courses ------------ -->
-    <section class="container bootom-padding">
-        <h1 class="d-flex justify-content-center">Online Courses</h1>
+    <section id="courses" class="container bootom-padding ">
+        <h1 class="d-flex justify-content-center font-weight-bold">Online Courses</h1>
         <br>
         <div class="card-deck">
             <div class="card card-bg-2">
@@ -161,7 +161,7 @@
 
     <!-- start Testimonial ------------ -->
     <section class="container bootom-padding">
-        <h1 class="d-flex justify-content-center" >Testimonial</h1>
+        <h1 class="d-flex justify-content-center font-weight-bold" >Testimonial</h1>
         <br>
         <br>
         <div class="row aling-items-center">
@@ -182,9 +182,21 @@
         <div class="container ">
             <div class="row aling-items-center">
                 <div class="col-md-6 text-aling">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis at numquam, distinctio ipsum eius recusandae
-                        alias in explicabo repellendus repudiandae molestias fugiat amet voluptatem natus illo ut vero iure laboriosam.
-                    </p>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Full Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Solomon Venddy">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Massages</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
                 </div>
                 <div class="col-md-2 text-aling">
                     <ul style="list-style-type:none;">
@@ -216,13 +228,21 @@
                         <li>Engineering</li>
                     </ul>
                 </div>
+                <button class="btn btn-danger">Submit</button>
             </div>
-            <br>
-            <br>
-            <div class="text-center"><p>&copy;PANDA 2020,all rights reserved.</p></div>
         </div>
     </footer>
     <!-- end footer ------------- -->
+
+    <!-- start copyright -- -------->
+    <div class="text-center bg-dark text-light">
+        <a class="d-flex justify-content-end" href="#">
+            <img src="images/ICON/upload (1).png" alt="">
+        </a>
+        <p>&copy;PANDA 2020,all rights reserved.</p>
+    </div>
+    <i class="fas fa-arrow-circle-up"></i>
+    <!-- end copyright -- -------->
 
     <!-- start js bootstrap link --------- -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
